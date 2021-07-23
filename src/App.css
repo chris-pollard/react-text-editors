@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  height: 100vh;
+  /* display: grid;
+  grid-template-rows: 2fr 10fr 1fr; */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  color: whitesmoke;
 }
 
 .App-logo {
@@ -24,15 +40,99 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+a {
+  outline: none !important;
+  text-decoration: none !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover p {
+  text-decoration: underline;
+}
+
+.navlink-p {
+  font-size: 1.5em;
+}
+
+.selected p {
+  font-weight: 800;
+}
+
+.page, footer, header {
+  padding: 0px 100px;
+}
+
+
+.page {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit,
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}
+
+nav a {
+  margin: 20px 30px;
+}
+
+.navlink-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: center;
+
+}
+
+.navlink-wrapper p {
+  font-size: 1.5em;
+}
+
+.underline {
+  margin-top: 10px;
+  height: 15px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  width: 110%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* Colours */
+
+.App {
+  background-color: rgba(2, 62, 138, 1);
+  
+}
+
+h1, h2, h3, h4, h5, p, span, a, button, input {
+  color: whitesmoke;
 }

@@ -1,0 +1,11 @@
+.feature-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.feature-table p {
+    margin: 0;
+    font-size: 1.5em;
+}

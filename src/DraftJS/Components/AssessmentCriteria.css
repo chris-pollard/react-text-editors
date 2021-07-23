@@ -1,0 +1,10 @@
+.assessment-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+
+.assessment-table p {
+    margin: 0;
+    font-size: 1.2em;
+}

@@ -1,0 +1,8 @@
+.resource p, .resource a {
+    font-size: 1em;
+    color: rgb(9, 30, 66);
+}
+
+.resource a {
+    font-weight: 600;
+}
