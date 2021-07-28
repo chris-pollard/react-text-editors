@@ -27,7 +27,7 @@ export default function Home() {
 
                     <Card 
                         title="Draft JS"
-                        subtitle="Facebook's open-source framework for Rich Text Editing"
+                        subtitle="Facebook's open-source framework for rich text editing"
                         iconUrl="assets/draftjs-logo.svg"
                         imgLetter="D"
                     />
@@ -40,7 +40,7 @@ export default function Home() {
 
                     <Card 
                         title="Slate"
-                        subtitle="A completely customisable framework"
+                        subtitle="A completely customisable framework for building rich, intuitive editors"
                         iconUrl="assets/slate-logo.png"
                         imgLetter="S"
                     />

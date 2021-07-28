@@ -2,9 +2,9 @@ import React from 'react';
 import DraftEditorExample from './Components/DraftEditorExample'
 import Editor from './Components/SlateEditor/Editor.jsx'
 import InfoBox from './Components/InfoBox'
-import './DraftJS.css'
+import './Review.css'
 
-export default function DraftJS( { framework } ) {
+export default function Review( { framework } ) {
 
   const SlateEditorExample = Editor;
 

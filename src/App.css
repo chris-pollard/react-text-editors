@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
 
-*{
+* {
   box-sizing: border-box;
+}
+
+html {
+  background-color: rgba(2, 62, 138, 1);
 }
 
 .App {
@@ -30,7 +34,7 @@ footer {
 }
 
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;

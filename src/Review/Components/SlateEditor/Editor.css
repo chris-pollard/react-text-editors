@@ -1,9 +1,9 @@
-blockquote{
+blockquote {
     border-left: 2px solid #ddd;
     margin-left: 0;
     margin-right: 0;
     padding-left: 10px;
-    color: #aaa;
+    color: black;
     font-style: italic;
 }
 table, th, td {
@@ -13,7 +13,7 @@ table{
     border-collapse: collapse;
 }
 button{
-    background-color: grey;
+    background-color: whitesmoke;
     border: none;
     opacity: 0.5;
 }
@@ -23,11 +23,10 @@ button{
 .editor-wrapper{
     font-family:'Helvetica','Arial', sans-serif;
     border-radius: 10px;
-    background: grey;
+    background: whitesmoke;
     border-radius: 20px;
     box-shadow: 0 0 15px rgb(1, 1, 20);
     border-width: 0px;
-    /* min-height: 400px; */
     height: 30%;
     overflow: auto;
     margin-bottom: 10px;
@@ -50,7 +49,7 @@ button{
 }
 
 .editor-wrapper p, .editor-wrapper span {
-    color: whitesmoke;
+    color: black;
 }
 
 table{
@@ -64,7 +63,7 @@ td{
     display: inline;
     position: relative;
 }
-.popup{
+.popup {
     position: absolute;
     left: 0;
     background-color: white;
@@ -74,6 +73,6 @@ td{
     z-index: 1;
 
 }
-button{
+button {
     cursor: pointer;
 }

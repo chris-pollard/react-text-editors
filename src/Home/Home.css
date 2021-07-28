@@ -53,6 +53,8 @@
     line-height: 1;
 }
 
+
+
 /* .icon-wrapper {
     margin-right: 10px;
 } */
@@ -64,4 +66,8 @@
 
 .icon-img {
     height: 20px;
+}
+
+.card-wrapper:hover .card-subtitle {
+    text-decoration: none !important;
 }

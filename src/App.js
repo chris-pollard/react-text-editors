@@ -14,7 +14,7 @@ import {
 import { useState } from 'react'
 // import axios from 'axios'
 import Home from './Home/Home'
-import DraftJS from './DraftJS/DraftJS'
+import Review from './Review/Review'
 import frameworks from './Data/data'
 import './App.css';
 
@@ -77,10 +77,10 @@ function App() {
               <Switch location={location}>
                 
                 <Route path="/slate">
-                  <DraftJS framework={slate}/>
+                  <Review framework={slate}/>
                 </Route>
                 <Route path="/draft">
-                  <DraftJS framework={draftjs}/>
+                  <Review framework={draftjs}/>
                 </Route>
                 <Route exact path="/">
                   <Home />
@@ -94,7 +94,6 @@ function App() {
 
 
 
-        <footer> &#9400; Chris Pollard 2021</footer>
       </div>
   );
 }
